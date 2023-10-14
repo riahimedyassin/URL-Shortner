@@ -4,6 +4,10 @@ const urlSchema = mongoose.Schema({
     original: {
         type : String , 
         required : [true,"Original URL must be included"]
+    },
+    hashed : {
+        type: String , 
+        required : [true,'Hashed Value is Required']
     }
 })
 

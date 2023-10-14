@@ -3,7 +3,7 @@ const {setURL, redirictURL} = require("../controllers/URL.controller")
 
 
 router.post("/seturl",setURL)
-router.get("/:id",redirictURL)
+router.get("/short/:id",redirictURL)
 
 
 module.exports={router}
