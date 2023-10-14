@@ -10,4 +10,4 @@ The posted URL will be received and hashed using the SHA1 algorithm. In that cas
 
 I did some researches and I found out that this algorithm uses a 64Bit encryption , that means the probability of collision between two or more links is impossible. Using only the first 10 caracters , I was reassured that collision still **almost** impossible. 
 
-[**You can read more about this here**]('https://stackoverflow.com/questions/51005488/how-to-use-cryptojs-in-javascript')
+[**You can read more about this here**](https://stackoverflow.com/questions/51005488/how-to-use-cryptojs-in-javascript)
